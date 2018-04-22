@@ -1,0 +1,62 @@
+#navigation{
+	cursor: default;
+	background: url('../img/nav.png');
+	float: right;
+	min-width: 990px;
+	padding: 10px;
+	border-radius: 10px;
+	box-shadow: 0 3px 10px 2px #000;
+}
+
+.nav{
+	padding: 5px;
+	font-size: 18px;
+	color: #c8d8df;
+	cursor: pointer;
+	display: inline;
+	margin-left: 5px;
+	-moz-transition:.7s;
+    -webkit-transition:.7s;
+    height: 24px;
+    -o-transition:.7s;
+    transition: .7s;
+	border-radius: 10px;
+	border: solid 1px;
+	width: 190px;
+	float: left;
+	background: url('../img/transparentBlue.png');
+}
+.nav:hover{
+	background-color:#3f6ca9;
+	color: #fff;
+}
+.nav:active{
+	color:#01fe34;
+}
+.submenu{
+	border: solid 1px;
+	height: 0px;
+	background-color:#3f6ca9;
+	visibility: hidden;
+	opacity: 0;
+	-moz-transition:.7s;
+    -webkit-transition:.7s;
+    -o-transition:.7s;
+	transition:.7s;
+}
+.submenu:hover a{
+	color: #fff;
+}
+.nav:hover .submenu{
+	height: 25px;
+	width: 200px;
+	visibility: visible;
+	opacity: 1;
+	
+}
+a{
+	color: #c8d8df;
+}
+a:hover{
+	color: #fff;
+}

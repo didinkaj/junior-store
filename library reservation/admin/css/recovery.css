@@ -1,0 +1,16 @@
+#recovery{
+	border: double 2px #236ddc;
+	height: 200px; 
+	width: 500px; 
+	padding: 10px;
+}
+.emailTxt{
+	width:250px;
+	padding: 3px;
+	border-radius: 2px;
+	font-size: 16px;
+}
+.msg{
+	color: #991324;
+	font-size: 14px;
+}

@@ -1,0 +1,99 @@
+#announcement{
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.warningMsg{
+	color: #bd0000;
+}
+.textbox{
+	font-size: 20px;
+	width: 600px;
+	margin-top: 5px;
+}
+.textarea{
+	min-width: 650px;
+	max-width: 650px;
+	min-height: 200px;
+	max-height: 200px;
+	font-size: 16px;
+	padding: 5px;
+	font-family: Verdana;
+	margin-bottom: 5px;
+}
+.dateComment{
+	font-size: 12px;
+}
+.submit{
+	padding:5px;
+	width: auto;
+	font-size: 18px;
+}
+#comments{
+	border:ridge 2px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 900px;
+	min-height: 70px;
+	max-height: 500px;
+	background-color: #618496;
+	overflow: auto;
+}
+.commentors{
+	border: outset 2px;
+	background-color:#e8e9e7;
+	-moz-transition: .5s;
+	-o-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+}
+.commentors:hover{
+	background-color:#dfe8ee;
+}
+.commentTextarea{
+	min-width: 660px;
+	max-width: 660px;
+	min-height: 63px;
+	max-height: 63px;
+	font-family: Verdana;
+	padding: 5px;
+	background: none;
+	border:solid 1px;
+	cursor: default;
+}
+.thumbPic{
+	float: left;
+	border: double 4px;
+}
+.commentOpt{
+	color:#306aab;
+	font-size: 14px;
+}
+.commentOpt:hover{
+	color:#000;
+}
+table{
+	float: right;
+	margin-right: 7px;
+}
+#myComment{
+	margin-top: 10px;
+	border:ridge 2px;
+	padding: 10px;
+	width: 880px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('../img/naviBG.png');
+}
+.myComment{
+	background-color: #fff;
+	min-width: 685px;
+	max-width: 685px;
+	min-height: 63px;
+	max-height: 63px;
+	font-family: Verdana;
+	padding: 5px;
+	border:solid 1px;
+	float: left;
+	margin-left: 10px;
+}

@@ -1,0 +1,248 @@
+.textbox{
+	padding: 3px;
+	border: inset 2px;
+	font-size: 18px;
+	border-radius: 3px;
+	width: 210px;
+}
+.textbox2{
+	width: 200px;
+	padding: 3px;
+	border: inset 2px;
+	font-size: 16px;
+	border-radius: 3px;
+}
+.textboxshort{
+	width: 60px;
+	padding: 3px;
+	border: inset 2px;
+	font-size: 16px;
+	border-radius: 3px;
+}
+.textboxDate{
+	width: 180px;
+	padding: 3px;
+	border: inset 1px;
+	font-size: 16px;
+	border-radius: 3px;
+}
+.cpass{
+	margin-left: auto;
+	margin-right: auto;
+}
+.label{
+	font-size: 18px;
+	color: #2b7ca8;
+}
+.submit{
+	font-size: 18px;
+	padding: 3px;
+	color: #d9e1e8;
+}
+.submit:hover{
+	box-shadow: 0px 0px 10px 1px #4294d0;
+}
+.lblMsg{
+	font-size: 15px;
+	color: #b00000;
+}
+.lblMsg2{
+	font-size: 15px;
+	color:#23dc43;
+	text-shadow: 1px 1px;
+}
+.select{
+	padding: 3px;
+	width: auto;
+	border: ridge 2px;
+	font-size: 18px;
+	border-radius: 3px;
+	color:#265686;
+}
+.optUni{
+	color: #ff0000;
+}
+.opt{
+	color: #3965a6;
+}
+.textarea{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 5px;
+	font-size: 15px;
+	color: #3965a6;
+	min-width: 530px;
+	max-width: 530px;
+	min-height: 200px;
+	max-height: 250px;
+}
+.textarea2{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 6px;
+	font-size: 16px;
+	color: #3965a6;
+	min-width: 600px;
+	max-width: 600px;
+	min-height: 220px;
+	max-height: 220px;
+	background: none;
+	border: ridge 3px;
+	box-shadow: 3px 4px #6f7b79;
+}
+.textarea3{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	padding: 3px;
+	font-size: 12px;
+	color: #3965a6;
+	min-width: 450px;
+	max-width: 450px;
+	min-height: 100px;
+	max-height: 100px;
+	outline-color: #447cc8;
+	border: solid 1px #447cc8;
+}
+.sup{
+	color: #3c72c4;
+}
+.readMe{
+	text-decoration: none;
+	color: #263d71;
+}
+.readMe:hover{
+	color: #000;
+}
+.msgOpt{
+	font-size: 16px;
+	text-decoration: none;
+	color:#3d76c2;
+}
+.msgOpt:hover{
+	font-size: 16px;
+	text-decoration: none;
+	color: #8e0000;
+}
+.readTD{
+	width: 320px;
+}
+.lnkBtn{
+	padding: 3px;
+	border: outset 2px #3571ca;
+	font-size: 16px;
+	text-decoration: none;
+	color: #3571ca;
+	background-color: #d0ebee;
+}
+.lnkBtn:visited{
+	padding: 3px;
+	border: outset 2px #3571ca;
+	font-size: 16px;
+	text-decoration: none;
+	color: #3571ca;
+	background-color: #d0ebee;
+}
+.lnkBtn:hover{
+	padding: 3px;
+	border: outset 2px #3571ca;
+	font-size: 16px;
+	text-decoration: none;
+	box-shadow: 0px 1px 3px 1px #3571ca;
+	color:#be419f;
+	background-color: #d0ebee;
+}
+#formCtrl{
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+}
+.sel_time{
+		width:65px;
+		padding: 2px;
+		border-radius: 3px;
+		border:inset 1px;
+}
+.mm{
+		width:50px;
+		padding: 2px;
+		border-radius: 3px;
+		border:inset 1px;
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+}
+.lnk{
+	text-decoration: none;
+	color: #357b93;
+	font-size: 14px;
+}
+.search{
+  border: 1px solid #93aed0;
+  width: 195px;
+  margin-left: 608px;
+  border-radius: 1px;
+}
+.search input[type="text"]{
+  border: 0 none;
+  float: left;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 5px;
+  font-size: 14px;
+  width: 170px;
+}
+.search input[type="submit"]{
+  background:url(../img/srch.png);
+  border: 0 none;
+  height: 1.5em;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 3px 0;
+  text-indent: 100px;
+  width: 25px;
+}
+
+#listName{
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+	overflow: auto;
+	width: 640px;
+	padding: 4px;
+	padding-left: 10px;
+}
+#paginator{
+	border-top: ridge 2px;
+	margin-left: auto;
+	margin-right: auto;
+	height:30px;
+	overflow: visible;
+	width: 610px;
+	padding: 4px;
+	padding-left: 10px;
+}
+#paginator a{
+	color: #000;
+	border: outset 1px;
+	padding: 5px;
+	background:url('../img/commentHover.png');
+	margin-bottom: 10px;
+	line-height: 35px;
+}
+#paginator a:hover{
+	color: #000;
+	border: inset 1px;
+	padding: 5px;
+	background: #d8eff5;
+}
+.active{
+	font-size: 20px;
+	cursor: default;
+}
+#sent{
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.line{
+	background-color: #f1f3f3;
+}

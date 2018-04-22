@@ -1,0 +1,117 @@
+#annBoard-Wrap{
+	width: 800px;
+	height: 540px;
+	margin-left: auto;
+	margin-right: auto;
+	padding:2px;
+}
+#board{
+	background: url('../img/transparentBlue.png');
+	padding: 10px;
+	width: 800px;
+	height: 150px;
+	margin-left: auto;
+	margin-right: auto;
+	border: outset 2px #236ddc;
+	box-shadow: 0px 6px 5px 1px #236ddc;
+	border-radius: 5px;
+	color:#204e7b;
+	cursor: default;
+	overflow: auto;
+}
+.ann_Title{
+	font-size: 20px;
+	text-shadow: 1px 1px #000;
+}
+#commentBox{
+	border: groove 3px #236ddc;
+	width: 800px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	cursor: default;
+	border-radius: 5px;
+	overflow: auto;
+}
+.commentor{
+	margin-bottom: 3px;
+	border-bottom: solid 1px;
+	padding: 10px;
+	font-size: 14px;
+	color: #154880;
+}
+.thumbPic{
+	margin-right: 10px;
+	float: left;
+}
+.commMsg{
+	border: none;
+	overflow: auto;
+	min-width: 700px;
+	max-width: 700px;
+	max-height: 70px;
+	min-height: 70px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	overflow: auto;
+	outline: none;
+	background: url('../img/transparentWhite.png');
+	border-radius: 3px;
+}
+#commentMe{
+	margin-top: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 3px;
+	border: solid 1px;
+	padding: 10px;
+	font-size: 14px;
+	color: #154880;
+	min-height: 50px;
+	max-height: 150px;
+	width: 800px;
+}
+.commMe{
+	border: inset 1px;
+	padding: 3px;
+	overflow: auto;
+	min-width: 630px;
+	max-width: 630px;
+	max-height: 50px;
+	min-height: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	overflow: auto;
+	outline: none;
+	background: url('../img/transparentWhite.png');
+	border-radius: 3px;
+	float: left;
+}
+#commentBtn{
+	width: 100px;
+	height: 35px;
+	border: groove 2px #154880;
+	margin-top: 6px;
+	margin-left: 10px;
+	color: #154880;
+	font-size: 16px;
+	border-radius: 3px;
+	background-color:#5cc2e9;
+	outline: none;
+}
+.date{
+	font-size: 10px;
+}
+#homeSublink{
+	background:url('../img/transparentBlue.png');
+	float: left;
+	height: auto;
+	width: 140px;
+	border-radius: 3px;
+	border: groove 1px;
+	padding: 5px;
+	padding-left: 20px;
+}

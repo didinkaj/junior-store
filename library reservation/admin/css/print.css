@@ -1,0 +1,39 @@
+body{
+  -webkit-print-color-adjust:exact;
+}
+@page { size:8.5in 11in; }
+#paper{
+	margin-left: auto;
+	margin-right: auto;
+	width: 612px;
+	height: 792px;
+	font-family: Calibri;
+	border: dashed 1px;
+}
+.title{
+	font-size: 25px;
+	font-weight: bold;
+	text-shadow: 1px 1px #5e6a69;
+}
+.address{
+	font-size: 18px;
+}
+#header{
+	width: 500px;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+#sched{
+	border-bottom: outset 2px;
+	width: 550px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+.left{
+	float: left;
+	margin-right: 10px;
+}

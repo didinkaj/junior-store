@@ -1,0 +1,9 @@
+table{
+	text-align:center;
+}
+.today{
+	background-color: #00FF00; 
+}
+.event{
+	background-color: #0000FF; 
+}

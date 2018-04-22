@@ -1,0 +1,44 @@
+#users{
+	width: 800px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.prof_thumb{
+	border: solid 1px;
+	float: left;
+	margin-left: 20px;
+}
+.dblist{
+	cursor: pointer;
+}
+.line{
+	width: 710px;
+	border: groove 2px;
+	padding: 3px;
+}
+.srchTxt{
+	float: left;
+	margin-top: 20px;
+	margin-left: 25px;
+	padding: 3px;
+	height: 25px;
+}
+.srchBtn{
+	border: solid 1px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 50px;
+	padding: 1px;
+	height: 25px;
+	border: 1px solid;
+	width: 27px;
+	background: url('../img/srch.png') no-repeat;
+}
+.hoverPro{
+	border:double;
+	box-shadow: 3px 3px #000;
+}
+.lbl1 a{
+	color: #000;
+	cursor: default;
+}

@@ -1,0 +1,82 @@
+#profile{
+	background: url('../img/transparentBlue.png');
+	padding: 10px;
+	width: 700px;
+	min-height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	border: outset 2px #236ddc;
+	box-shadow: 0px 6px 5px 1px #236ddc;
+	border-radius: 5px;
+	color:#204e7b;
+	cursor: default;
+}
+#pic{
+	float: left;
+	border: double 3px;
+	width: 150px;
+	height: 150px;
+	margin-left: 20px;
+	box-shadow: 5px 5px 8px 1px #252525;
+	margin-bottom: 25px;
+	-moz-transition:.7s;
+    -webkit-transition:.7s;
+    -o-transition:.7s;
+    transition:.7s;
+}
+.changePro{
+	cursor: pointer;
+	padding: 5px;
+	outline: none;
+	-moz-transition:.7s;
+    -webkit-transition:.7s;
+    -o-transition:.7s;
+    transition:.7s;
+	visibility: visible;
+	opacity: 1;
+	text-decoration: none;
+	font-size: 14px;
+	color:#2f74d0;
+	background-color:#2696d9;
+	border: outset 2px;
+	color: #d7e7f9;
+}
+.inputFile{
+	border: solid 2px;
+	width: 200px;
+}
+#line1{
+	border: solid 1px;
+	width:450px;
+	margin-left: 205px;
+	padding: 5px;
+}
+#line2{
+	border: solid 1px;
+	width:620px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 5px;
+}
+.textboxEdit{
+	font-size: 16px;
+	padding: 3px;
+	outline:none;
+	border-radius: 5px;
+	width: 250px;;
+}
+.probtn{
+	font-size: 18px;
+	padding: 5px;
+	color: #dfedf9;
+	background-color: #2b88d5;
+	border-radius: 3px;
+	border: outset 2px;
+}
+b a{
+	color: #204e7b;
+	cursor: default;
+}
+b a:hover{
+	color: #204e7b;
+}

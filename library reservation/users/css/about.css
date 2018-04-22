@@ -1,0 +1,21 @@
+#about{
+	width: 1000px;
+	height: 650px;
+	margin-left: auto;
+	box-shadow: 0px 0px 20px 0px;
+	margin-right: auto;
+	background:url('../img/transparentWhite.png');
+}
+h1{
+	text-shadow: 1px 2px #2078ac;
+	color: #131a39;
+}
+.history{
+	background:url('../../img/slideshow/bg.png');
+	height: 500px;
+	width: 700px;
+	padding: 10px;
+	font-size: 20px;
+	font-family: Comic Sans MS;
+	padding-right: 10px;
+}

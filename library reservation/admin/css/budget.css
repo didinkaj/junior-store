@@ -1,0 +1,126 @@
+#budget{
+	background:url('../../img/slideshow/bg.png');
+	padding: 10px;
+	width: 850px;
+	margin-left: auto;
+	margin-right: auto;
+	border: outset 2px #236ddc;
+	box-shadow: 0px 6px 5px 1px #236ddc;
+	border-radius: 5px;
+	color:#204e7b;
+	cursor: default;
+	min-height: 500px;
+}
+#top{
+	padding: 5px;
+	border-bottom: solid 1px;
+}
+select{
+	padding: 5px;
+	font-size: 16px;
+}
+.default{
+	color: #ff0000;
+}
+#filterbtn{
+	padding: 5px;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+#insert{
+	padding: 10px;
+	width: 400px;
+	border: 2px solid;	
+	min-height: 430px;
+	float: left;
+}
+#content{
+	padding: 10px;
+	width: 400px;
+	border: 2px solid;	
+	min-height: 430px;
+	margin-left: 426px;
+}
+#success_msg, #error_msg{
+	padding: 3px;
+	border: solid 1px;
+	margin-bottom: 10px;
+	color: #228a2f;
+	border-radius: 3px;
+}
+#error_msg{
+	color: #ac0000;
+}
+.txtbox, .txtbox2{
+	text-align: center;
+	width: 130px;
+	padding: 5px;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.txtbox2{
+	width: 70px;
+}
+.btn{
+	width: 150px;
+	padding: 5px;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+.txtarea{
+	padding: 5px;
+	min-width: 390px;
+	max-width: 390px;
+	min-height: 250px;
+	font-size: 14px;
+	font-family: Verdana;
+}
+.budgetList{
+	padding:5px;
+	border-radius: 3px;
+	border: solid 2px;
+	background-color: #eff0ee;
+	transition: .3s;
+	-moz-transition: .3s;
+	-o-transition: .3s;
+}
+.listLink, .budgetList{
+	text-decoration: none;
+	color:#204e7b;
+	background-color: #eff0ee;
+}
+.listLink:hover, .budgetList:hover{
+	text-decoration: none;
+	color:#000;
+	background-color: #fff;
+}
+#budget_content{
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+.btn_del, .btn_update, .btn_back{
+	padding: 3px;
+	font-size: 14px;
+	width: 100px;
+	color: #ff0000;
+	margin-left: 10px;
+}
+.btn_update{
+	color: #1c2ea8;
+}
+.btn_back{
+	color: #1f5f0a;
+}
+.txtarea_readonly{
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 500px;
+	max-height: 600px;
+	padding: 7px;
+	font-family: Verdana;
+	font-size: 15px;
+	background-color:rgba(252, 254, 255, 0.47);
+	outline: none;
+	cursor: default;
+}

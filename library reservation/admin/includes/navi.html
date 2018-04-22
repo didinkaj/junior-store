@@ -1,0 +1,67 @@
+<?php
+	$queryInbox = mysql_query("SELECT * FROM msg WHERE recipient = 'Administrator' AND define = 'Administrator' AND status='unread'");
+	$numInbox = mysql_num_rows($queryInbox);
+	$querySent = mysql_query("SELECT * FROM msg WHERE sender = 'Administrator' AND define = 'Administrator'");
+	$numSent = mysql_num_rows($querySent);
+?>	
+
+<div id="navigation">
+<center>
+	<a href="announcement.php">
+	<div class="nav">
+	Check reserved seats (<b title="Number of comments"><?php include 'functions/numComments.php'; ?></b>)
+	<br /><p style="font-size: 7px;">&nbsp;</p>
+	<div class="submenu">
+		<a href="calendar.php">Seat Status</a>
+	</div>	
+	<div class="submenu">
+		<a href="../../library reservation" class="link">Homepage</a>
+	</div>
+	</div>
+	</a>
+	
+	
+	<a href="reservations.php">
+	<div class="nav">
+	Reservations
+	</div>
+	</a>
+	
+	<a href="requirements.php">
+	<div class="nav">
+	Requirements
+	</div>
+	</a>
+	
+	<a href="users.php">
+	<div class="nav">
+	Manage Users
+	</div>
+	</a>
+	
+	
+	<div class="nav">Maintenance
+	
+	<br /><p style="font-size: 7px;">&nbsp;</p>
+	<div class="submenu">
+		<a href="changePass.php">Change Password</a>
+	</div>
+		
+	<div class="submenu">
+		<a href="message.php">Write Message</a>
+	</div>
+	
+	<div class="submenu">
+		<a href="inbox.php">Inbox (<b><?php echo $numInbox ?></b>)</a>
+	</div>
+	
+	<div class="submenu">
+		<a href="sent.php">Sent Message (<b><?php echo $numSent ?></b>)</a>
+	</div>
+	<div class="submenu">
+		<a href="functions/logout.php">Logout</a>
+	</div>
+	</div>
+	
+</center>
+</div>

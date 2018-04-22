@@ -1,0 +1,24 @@
+*{ margin:0; padding:0 }
+body{
+	background: url('../img/bg.png');
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.title{
+	color:#9bbce8;
+	text-shadow: 1px 2px #000;
+}
+
+#contents{
+	color: #2669a6;
+	background-color: #FFF;
+	min-height: 500px;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+#footer{
+	color:#065164;
+	font-size: 10px;
+}

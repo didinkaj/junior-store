@@ -1,0 +1,92 @@
+#form{
+	width: 500px;
+	height: 400px;
+	margin-right: auto;
+	margin-left: auto;
+}
+label{
+	color:#323d3f;
+}
+h2{
+	text-shadow: 1px 1px #000;
+	color: #2f47aa;
+}
+table, td{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 30px;;
+	text-align: left;
+}
+.textboxlogin{
+	padding: 5px;
+	width: 220px;
+	font-size: 16px;
+	border: inset 2px;
+	border-radius: 5px;
+	outline: none;
+	-moz-transition: .5s;
+	-o-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+	margin-bottom: 4px;
+}
+.textboxlogin:focus{
+	box-shadow: 0px 0px 10px 1px #BAD9F8;
+}
+.submitlogin{
+	padding: 10px;
+	cursor: pointer;
+	font-size: 18px;
+	border-radius: 5px;
+	background-color: #2891d7;
+	color: #fff;
+	width: 100px;
+	background: -webkit-linear-gradient(#3960d0, #6ba5de); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(#3960d0, #6ba5de); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(#3960d0, #6ba5de); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(#3960d0, #6ba5de); /* Standard syntax (must be last) */
+}
+.link{
+	width: 200px;
+	margin-bottom: 5px;
+	padding: 5px;
+	border: outset 2px;
+	background-color:#4962b6;
+	border-radius: 10px;
+	color: #fff;
+	text-decoration: none;
+}
+.link:hover{
+	-moz-transition: .5s;
+	-o-transition: .5s;
+	-webkit-transition: .5s;
+	transition: .5s;
+	background-color:#369ccd;
+	color:#000;
+}
+.link:visited{
+	color:#fff;
+}
+#login{
+	border:outset 2px;
+	box-shadow: 0px 0px 5px 1px;
+	border-radius: 5px;
+	width: 500px;
+	height: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	background: url('../img/login.png');
+}
+.error{
+	cursor: default;
+	color:#c10000;
+	border-top: solid 1px;
+	border-bottom: solid 1px;
+	width: 400px;
+	padding: 10px;
+	margin-top: 20px;
+}
+.title{
+	color: #fff;
+	font-size: 30px;
+	}

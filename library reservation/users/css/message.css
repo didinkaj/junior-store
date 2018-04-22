@@ -1,0 +1,114 @@
+#message{
+	background: url('../img/transparentBlue.png');
+	padding: 10px;
+	width: 800px;
+	min-height: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	border: outset 2px #236ddc;
+	box-shadow: 0px 6px 5px 1px #236ddc;
+	border-radius: 5px;
+	color:#204e7b;
+	cursor: default;
+}
+#messageTXT{
+	min-width: 700px;
+	max-width: 700px;
+	min-height: 220px;
+	max-height: 220px;
+	font-size: 15px;
+	border: inset 2px;
+	border-radius: 3px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	outline-color: #1a8bac;
+	padding: 10px;
+}
+.textbox{
+	width: 200px;
+	height: 30px;
+	padding-left: 5px;
+}
+.select{
+	border-radius: 4px;
+	border: inset 1px;
+	outline-color: #236ddc;
+	font-size: 16px;
+	width: auto;
+	padding: 3px;
+}
+.submit{
+	padding: 4px;
+	border: outset 2px;
+	height: 30px;
+	border-radius: 5px;
+	outline:none;
+	background-color:#3892c7;	
+	text-decoration: none;
+	text-align: center;
+	width: auto;
+	letter-spacing: 1px;
+	font-size: 16px;
+	color: #FFF;
+}.submit2{
+	padding: 4px;
+	border: outset 2px;
+	height: 30px;
+	border-radius: 5px;
+	outline:none;
+	background-color:#3892c7;	
+	text-decoration: none;
+	text-align: center;
+	width: 200px;
+	letter-spacing: 1px;
+	font-size: 16px;
+	color: #FFF;
+}
+.submit2:hover{
+	border-color: #000;
+}
+.submitBtn{
+	padding: 2px;
+	height: 30px;
+	border-radius: 5px;
+	outline:none;
+	background-color:#3892c7;	
+	text-decoration: none;
+	text-align: center;
+	width: auto;
+	letter-spacing: 1px;
+	font-size: 16px;
+	color: #FFF;
+}
+#emailResult{
+	font-size: 12px;
+}
+.new{
+	text-decoration: none;
+	color: #3892c7;
+	font-size: 20px;
+}
+.new:hover{
+	text-decoration: underline;
+	color: #000;
+}
+#readMsg{	
+	background: none;
+	min-width: 700px;
+	max-width: 700px;
+	min-height: 220px;
+	max-height: 220px;
+	font-size: 16px;
+	border: solid 1px #3892c7;
+	color: #2b6f97;
+	border-radius: 3px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	outline: none;
+	padding: 10px;
+	cursor: default;
+}
+table{
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 14px;
+	color:#0d496a;
+}

@@ -1,0 +1,73 @@
+#reservation{
+	background:url('../img/slideshow/bg.png');
+	padding: 10px;
+	width: 850px;
+	min-height: 450px;
+	margin-left: auto;
+	margin-right: auto;
+	border: outset 2px #236ddc;
+	box-shadow: 0px 6px 5px 1px #236ddc;
+	border-radius: 5px;
+	color:#204e7b;
+	cursor: default;
+}
+.sel_Events{
+	width: 140px;
+	padding: 3px;
+	font-size: 16px;
+	color: #2869a4;
+	border: ridge;
+	outline-color: #3e9ed2;
+	border-radius: 5px;
+}
+.textarea{
+	padding: 5px;
+	border-radius: 5px;
+	outline-color: #2baed5;
+	border: inset 2px;
+	min-height: 200px;
+	max-height: 200px;
+	min-width: 500px;
+	max-width: 500px;
+	overflow: auto;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.checkBtn{
+	width: 200px;
+	padding: 2px;
+	border-radius: 5px;
+	outline:none;
+	background-color:#3892c7;	
+	text-align: center;
+	letter-spacing: 1px;
+	font-size: 16px;
+	color: #FFF;
+	-moz-transition:.7s;
+    -webkit-transition:.7s;
+    -o-transition:.7s;
+    transition: .7s;
+}
+.checkBtn:hover{
+	box-shadow: 0px 0px 10px 2px #3892c7;
+	border: outset #3892c7 2px;
+}
+.detail{
+	padding: 5px;
+	border-radius: 5px;
+	outline-color: #2baed5;
+	background: none;
+	border: solid 1px #3892c7;
+	color: #204e7b;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	min-height: 100px;
+	max-height: 100px;
+	min-width: 300px;
+	max-width: 300px;
+	overflow: auto;
+}
+summary{
+	outline: none;
+}
+.sel_time{
+	width:200px;
+}

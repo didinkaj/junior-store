@@ -1,0 +1,92 @@
+#requirements{
+	margin-left: auto;
+	margin-right: auto;
+	border: groove 1px;
+	width: 700px;
+	min-height: 500px;
+	padding: 10px;
+}
+#input{
+	
+}
+#output{
+	border:solid 1px #d1e9f3;
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	min-height: 0px;	
+	max-height: 500px;	
+}
+.textareaReq{
+	min-width: 600px;
+	max-width: 600px;
+	min-height: 150px;
+	max-height: 150px;
+	border-radius: 3px;
+	border: inset 2px;
+	padding: 5px;
+	font-size: 14px;
+	font-family: Verdana;
+}
+details{
+	border: solid 1px blue  #ddecf7;
+	padding: 5px;
+	cursor: default;
+	border-radius: 3px;
+}
+summary{
+	padding: 3px;
+	border: ridge 1px #ddecf7;
+	background-color: #f2ffff;
+	padding-left: 10px;
+	cursor: pointer;
+	transition: .5
+}
+summary:hover{
+	background-color:#93b6e1;
+	color: #FFF;
+	list-type-style: none;
+}
+details summary::-webkit-details-marker { display:none; }
+.textareaOutput{
+	min-width: 585px;
+	max-width: 585px;
+	min-height: 100px;
+	max-height: 100px;
+	border-radius: 3px;
+	border: inset 1px;
+	background: url('../img/transparentBlue.png');
+	padding: 5px;
+	font-size: 14px;
+	color: #286d97;
+	font-family: Verdana;
+}
+.hideMe{
+	color: #2d6188;
+	opacity: 0;
+	font-size: 0px;
+	transition: .5s;
+}
+a{
+	text-decoration: none;
+}
+a:hover .hideMe{
+	opacity: 1;
+	font-size: 12px;
+}
+.textbox{
+	padding: 5px;
+	width: 200px;
+}
+.submit{
+	font-size: 18px;
+	width: 200px;
+	padding: 6px;
+}
+
+
+
+
+
+
